@@ -1,0 +1,32 @@
+
+/* CSS type selector  */
+/* Para comentar el shift +alt+A */
+
+body {
+    background-color: black; /*esto es para el fondo*/
+    color:aqua;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    h1{
+        color:#BFA9E3;
+    }
+}/* esto es para poder agregar estilos al body*/
+
+
+button{
+    background-color: #4D8076;
+    color:#FBEAFF;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;  /*esto era para poner la manita como cursor*/
+}
+
+/*CSS type selector:pseudo class selector*/
+/* es una pseudo clase*/
+/* son acciones que pueden tener algunos elementos*/
+button:hover{
+    background-color: #008EB4;
+}
+/*Esto de arriba es para cambiar el color del boton 
+cuando el puntero este en el selector*/
+/*no todos los elementos tienen pseudoclases, solo algunos*/
